@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.17.0.final using JasperReports Library version 6.17.0-6d93193241dd8cc42629e188b94f9e0bc5722efd  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="static_khmer_font_sample" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="94c92363-4a55-4c59-a41f-7348c8e78546">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="114" splitType="Stretch">
+			<textField>
+				<reportElement x="379" y="0" width="180" height="109" uuid="139504e7-cfc7-4f1c-8def-afd291282d24"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Khmer MEF" size="48" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["សួស្តី"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="19" width="270" height="76" uuid="ee5b3589-d160-4223-8cbd-1267329b0714"/>
+				<textElement verticalAlignment="Middle">
+					<font size="28"/>
+				</textElement>
+				<text><![CDATA[Title Khmer MEF 1:]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="82" splitType="Stretch">
+			<textField>
+				<reportElement x="379" y="-30" width="180" height="90" uuid="f59aec89-f35a-4136-94fa-997bffe8e014"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Khmer MEF" size="48" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["សួស្តី"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="-18" width="270" height="76" uuid="c8193136-1685-44dd-982c-1e90fbbd2b74"/>
+				<textElement verticalAlignment="Middle">
+					<font size="26"/>
+				</textElement>
+				<text><![CDATA[Header Khmer MEF 2:]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="114" splitType="Stretch">
+			<textField>
+				<reportElement x="379" y="0" width="180" height="109" uuid="139504e7-cfc7-4f1c-8def-afd291282d24"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Khmer MEF" size="48" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["សួស្តី"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="19" width="270" height="76" uuid="ee5b3589-d160-4223-8cbd-1267329b0714"/>
+				<textElement verticalAlignment="Middle">
+					<font size="28"/>
+				</textElement>
+				<text><![CDATA[Detail Khmer MEF 1:]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="100" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

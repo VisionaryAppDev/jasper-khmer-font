@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fontFamilies>
+	<fontFamily name="Khmer MEF">
+		<normal><![CDATA[fonts/KhmerMEF/KHMERMEF1.ttf]]></normal>
+		<bold><![CDATA[fonts/KhmerMEF/KHMERMEF2.ttf]]></bold>
+		<pdfEncoding><![CDATA[Identity-H]]></pdfEncoding>
+		<pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+		<exportFonts/>
+	</fontFamily>
+
+	<fontFamily name="Khmer Wing 2">
+		<normal><![CDATA[fonts/KhmerWing2/wingdings2.ttf]]></normal>
+		<pdfEncoding><![CDATA[Identity-H]]></pdfEncoding>
+		<pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+		<exportFonts/>
+	</fontFamily>
+
+	<fontFamily name="Tacteing">
+		<normal><![CDATA[fonts/Tacteing/Tacteing.TTF]]></normal>
+		<pdfEncoding><![CDATA[Identity-H]]></pdfEncoding>
+		<pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+		<exportFonts/>
+	</fontFamily>
+</fontFamilies>
